@@ -1,4 +1,4 @@
-# elastic load balancing 
+# # Creating Security Group for ELB 
 resource "aws_elb" "web_elb" {
   name = "web-elb"
   security_groups = [ aws_security_group.demosg.id ]
