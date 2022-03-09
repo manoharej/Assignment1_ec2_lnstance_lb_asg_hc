@@ -1,3 +1,4 @@
+# Create launch configuration for Auto scalling
 resource "aws_launch_configuration" "web" {
     name_prefix = "web-"
     image_id = "ami-0e1d30f2c40c4c701" 
